@@ -1,0 +1,41 @@
+.button {
+    background-color: #4368ce;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #3556b3;
+}
+
+.button:active {
+    background-color: #233e81;
+}
+
+.button:focus, .buttonFavorite:focus  {
+    outline: none;
+}
+
+.buttonFavorite {
+    background-color: #318f31;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;   
+}
+
+.buttonFavorite:hover {
+    background-color: #1e7a1e;
+}
+
+.buttonFavorite:active {
+    background-color: #165c16;
+}
+
